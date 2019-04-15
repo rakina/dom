@@ -2449,7 +2449,7 @@ before a <var>child</var>, with an optional <i>suppress observers flag</i>, run 
   <p>For each <var>node</var> in <var>nodes</var>, in <a>tree order</a>:
 
   <ol>
-   <li><a>Adopt</a> <var>node</var> into <var>parent</var>'s <a for=Node>node document</a>.
+   <li><p><a>Adopt</a> <var>node</var> into <var>parent</var>'s <a for=Node>node document</a>.
 
    <li><p>If <var>child</var> is null, then <a for=set>append</a> <var>node</var> to
    <var>parent</var>'s <a for=tree>children</a>.
